@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+img{
+    width: 100%;
+}
+
+/* Header part */
+header{
+    background-color: rgba(0, 0, 0, 0.568);
+    margin: 0;
+    padding: 20;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    transition: background-color 0.3s, color 0.3s;
+}
+header.scrolled{
+    background-color:rgb(255, 166, 0);
+}
+.nava1 nav {
+    display: flex;
+    justify-content: center !important;
+    margin-right: 90px;
+}
+.nava1 nav li {
+    list-style: none;
+    margin:20px 3%;
+
+}
+.nava1 nav li a{
+    text-decoration: none;
+    color: #ffffffb4;
+   font-weight: 600;
+   font-size: 17px;
+   font-family:'Times New Roman', Times, serif;
+   /* transition: color 1s ease; */
+}
+.nava1 nav li a:hover{
+    padding: 2px;
+    font-size: 17px;
+    color: #fff;
+    text-decoration:underline 2px #ffffffe7;
+}
+.nava1 nav button{
+    position: absolute;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+   font-size: 17px;
+    background-color: #ff9800;
+    border: none;
+    border-radius: 20px;
+    padding:10px 20px;
+   margin: 15px;
+   right: 0;
+   
+
+}
+
+
+
+.nava1 nav button a{
+    text-decoration: none;
+}
+.nava1 nav button:hover{
+    background-color: #ff5722;
+}
+
+/* body{
+    background-image: linear-gradient(to right, #ff5722, #ff9800);
+    z-index: 0;   
+} */
+.register-right{
+    text-align: center;
+    color: #fff;
+    padding: 30px;
+}
+.register-right .btn-primary{
+    padding: 20px 20px 0;
+}
+.register-right .btn-primary{
+border-radius: 1.5rem;
+border: none;
+width: 120px;
+background: #f8f8f8;
+font-weight: 600;
+color: #555;
+margin-top: 20px;
+padding: 10px;
+}
+.register-right .btn-primary:hover{
+    background: #000;
+}
+
+.form-group{
+    margin-bottom: 10px;
+}
+.register-left{
+    border: none;
+    background: #f8f8f8;
+     border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+    padding: 50px;
+}
+.register-left h2{
+    text-align: center;
+    margin-bottom: 10px;
+    color: #555;
+}
+.register-form{
+    padding: 30px;
+}
+
+.register-left .btn-primary{
+    float: right;
+    border-radius: 1.5rem;
+    border: none;
+    width: 120px;
+    background: #ff9800;
+    font-weight: 600;
+    color: #555;
+    margin-top: 20px;
+    padding: 10px;
+    }
+.register-left .btn-primary:hover{
+        background: #ff5722;
+    }
+.register-right img{
+    margin-top: 6px !important;
+    margin-bottom: 18px;
+    width: 80px;
+    animation:mover 1s infinite alternate  ;
+    
+}
+#signup-form .container{
+    margin-top: 120px;
+    margin-bottom: 160px;
+    
+
+}
+.test{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+/* main section */
+
+.main{
+    margin-top: 65px; 
+    text-align: center;
+    background-image: url(images/photo_2024-09-27_10-34-43.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 660px;
+    align-items: center;
+    
+}
+.main h3{
+    color: white;
+    padding-top:200px ;
+}
+.main p{
+    color: white;
+}
+
+
+
+/* another bible study section */
+.biblestudy{
+    display: flex;
+    margin: 30px 0px;
+}
+.rightdiv{
+    width: 50%;
+}
+
+.rightdiv p{
+    text-align: center;
+    padding: 100px 15px 50px 15px;
+}
+.leftdiv{
+    width: 50%;
+    background-image: url(images/photo_2024-09-27_10-34-26.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 560px;
+    margin-right: 30px;
+}
+
+
+/* worshiptime */
+
+
+/* footer  part */
+footer{
+    background-color: #000;
+    color: #fff;
+   margin: 0 !important;
+  
+
+}
+
+@keyframes mover{
+    0%{transform: translateY(0);}
+    100%{transform: translateY(20px);}
+}
